@@ -72,6 +72,7 @@ def main():
         # iterate through password list
         i = 0
         for _pwd in _pwdz:
+            # ensure thread-cap is not exceeded
             while _thdCnt >= thredz:
                 pass
             
